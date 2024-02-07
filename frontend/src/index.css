@@ -10,5 +10,14 @@
   .header{
     @apply m-0;
   }
+  .nav-button{
+    @apply px-10 py-3  hover:bg-blue-600;
+  }
+  .input-box{
+    @apply w-[100%] rounded-md p-4  pl-12 border  focus:bg-transparent placeholder:text-black;
+  }
+  .input-icon{
+    @apply absolute left-4 top-1/2 -translate-y-1/2
+  }
 }
 
